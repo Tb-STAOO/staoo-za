@@ -30,7 +30,13 @@ yes_no_classifier_project/
 │     ├─ metrics_summary.csv
 │     ├─ assignment_report.md
 │     └─ figures/
-└─ docs/reference_pdf/                 # 实验PDF参考文件与解析图
+├─ error_analysis/                     # 错误样本分析输出
+│  ├─ tables/
+│  └─ figures/
+├─ ERROR_ANALYSIS_REPORT.md            # 错误样本分析报告（Markdown）
+├─ REPORT_MAIN_PDF_STYLE.md            # 主实验报告（Markdown）
+├─ REPORT_MAIN_PDF_STYLE.pdf           # 主实验报告（PDF）
+└─ REPORT_MAIN_PDF_STYLE.docx          # 主实验报告（DOCX）
 ```
 
 ## 2. 数据格式
@@ -110,6 +116,14 @@ python generate_assignment_outputs.py
 - `convnext1d`: Acc = `0.91`
 
 对比总表：`output/model_comparison.csv`
+
+## 7. 报告与分析文件
+
+- 主报告（PDF）：`REPORT_MAIN_PDF_STYLE.pdf`
+- 主报告（DOCX）：`REPORT_MAIN_PDF_STYLE.docx`
+- 主报告（Markdown）：`REPORT_MAIN_PDF_STYLE.md`
+- 错误样本分析报告：`ERROR_ANALYSIS_REPORT.md`
+- 错误样本图表与表格：`error_analysis/`
 
 ---
 

@@ -1,0 +1,67 @@
+{
+  "data_root": "F:\\data\\newdata",
+  "summary_csv": "F:\\yes_no_classifier_project\\error_analysis\\tables\\error_summary.csv",
+  "report_markdown": "F:\\yes_no_classifier_project\\ERROR_ANALYSIS_REPORT.md",
+  "models": [
+    {
+      "model_name": "cnn1d",
+      "accuracy": 0.92,
+      "error_rate": 0.08,
+      "misclassified_csv": "F:\\yes_no_classifier_project\\error_analysis\\tables\\cnn1d_misclassified.csv",
+      "error_figures": [
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank01_idx036.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank02_idx065.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank03_idx038.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank04_idx039.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank05_idx181.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank06_idx077.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank07_idx069.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank08_idx098.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank09_idx183.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank10_idx168.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank11_idx037.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\cnn1d_error_rank12_idx149.png"
+      ]
+    },
+    {
+      "model_name": "inceptiontime",
+      "accuracy": 0.92,
+      "error_rate": 0.08,
+      "misclassified_csv": "F:\\yes_no_classifier_project\\error_analysis\\tables\\inceptiontime_misclassified.csv",
+      "error_figures": [
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank01_idx036.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank02_idx181.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank03_idx038.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank04_idx037.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank05_idx171.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank06_idx026.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank07_idx133.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank08_idx065.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank09_idx168.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank10_idx132.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank11_idx047.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\inceptiontime_error_rank12_idx098.png"
+      ]
+    },
+    {
+      "model_name": "convnext1d",
+      "accuracy": 0.91,
+      "error_rate": 0.09,
+      "misclassified_csv": "F:\\yes_no_classifier_project\\error_analysis\\tables\\convnext1d_misclassified.csv",
+      "error_figures": [
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank01_idx036.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank02_idx168.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank03_idx038.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank04_idx133.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank05_idx039.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank06_idx077.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank07_idx033.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank08_idx134.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank09_idx037.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank10_idx147.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank11_idx149.png",
+        "F:\\yes_no_classifier_project\\error_analysis\\figures\\convnext1d_error_rank12_idx181.png"
+      ]
+    }
+  ]
+}

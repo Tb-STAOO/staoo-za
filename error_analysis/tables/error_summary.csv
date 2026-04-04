@@ -1,0 +1,4 @@
+model_name,accuracy,error_rate,error_samples,total_samples,no_to_yes,yes_to_no,avg_wrong_confidence,checkpoint_path,misclassified_csv
+cnn1d,0.92,0.08,16,200,10,6,0.6697566844522953,F:\yes_no_classifier_project\model\cnn1d\best_model.pth,F:\yes_no_classifier_project\error_analysis\tables\cnn1d_misclassified.csv
+inceptiontime,0.92,0.08,16,200,8,8,0.6679407171905041,F:\yes_no_classifier_project\model\inceptiontime\best_model.pth,F:\yes_no_classifier_project\error_analysis\tables\inceptiontime_misclassified.csv
+convnext1d,0.91,0.09,18,200,8,10,0.7602454589472877,F:\yes_no_classifier_project\model\convnext1d\best_model.pth,F:\yes_no_classifier_project\error_analysis\tables\convnext1d_misclassified.csv
