@@ -1,0 +1,6 @@
+﻿{
+  "python.defaultInterpreterPath": "e:\\MY_APP\\Anaconda2025.6.1\\envs\\yolox_st\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.envFile": "${workspaceFolder}/.env"
+}

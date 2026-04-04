@@ -1,0 +1,33 @@
+﻿{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Train yes/no model",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": [
+        "train_binary_classifier.py",
+        "--data-root",
+        "F:/data/newdata",
+        "--epochs",
+        "80",
+        "--max-retries",
+        "3",
+        "--target-acc",
+        "0.90"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

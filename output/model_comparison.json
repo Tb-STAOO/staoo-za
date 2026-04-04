@@ -1,0 +1,68 @@
+{
+  "data_root": "F:/data/newdata",
+  "models": [
+    {
+      "model_name": "cnn1d",
+      "best_seed": 42,
+      "test_acc": 0.92,
+      "test_precision": 0.9038461538461539,
+      "test_recall": 0.94,
+      "test_f1": 0.9215686274509803,
+      "test_roc_auc": 0.9662,
+      "confusion_matrix": [
+        [
+          90,
+          10
+        ],
+        [
+          6,
+          94
+        ]
+      ],
+      "best_model_path": "F:\\yes_no_classifier_project\\model\\cnn1d\\best_model.pth",
+      "metrics_path": "F:\\yes_no_classifier_project\\output\\cnn1d\\metrics.json"
+    },
+    {
+      "model_name": "inceptiontime",
+      "best_seed": 42,
+      "test_acc": 0.92,
+      "test_precision": 0.92,
+      "test_recall": 0.92,
+      "test_f1": 0.92,
+      "test_roc_auc": 0.976,
+      "confusion_matrix": [
+        [
+          92,
+          8
+        ],
+        [
+          8,
+          92
+        ]
+      ],
+      "best_model_path": "F:\\yes_no_classifier_project\\model\\inceptiontime\\best_model.pth",
+      "metrics_path": "F:\\yes_no_classifier_project\\output\\inceptiontime\\metrics.json"
+    },
+    {
+      "model_name": "convnext1d",
+      "best_seed": 42,
+      "test_acc": 0.91,
+      "test_precision": 0.9183673469387755,
+      "test_recall": 0.9,
+      "test_f1": 0.9090909090909091,
+      "test_roc_auc": 0.9592,
+      "confusion_matrix": [
+        [
+          92,
+          8
+        ],
+        [
+          10,
+          90
+        ]
+      ],
+      "best_model_path": "F:\\yes_no_classifier_project\\model\\convnext1d\\best_model.pth",
+      "metrics_path": "F:\\yes_no_classifier_project\\output\\convnext1d\\metrics.json"
+    }
+  ]
+}
