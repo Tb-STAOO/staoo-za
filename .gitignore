@@ -7,3 +7,20 @@
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
+
+# STM32 / Keil build artifacts
+*.axf
+*.hex
+*.map
+*.o
+*.d
+*.crf
+*.htm
+*.dep
+*.lnp
+
+# Keil user workspace files
+*.uvguix.*
+
+# STM32 generated binaries folder for this project
+projects/dazuoye/MDK-ARM/dazuoye/
